@@ -40,7 +40,7 @@ body{
 }
 
 
-@media screen and (max-width: 758px) {
+@media screen and (min-device-height: 481px) and (max-device-width: 768px) {
   .main{
     margin-top: 50%;
   }
@@ -104,9 +104,6 @@ img{
   color: white;
   background-color: black;
   position: fixed;
-  
-
-  
 }
 
 /* Sidebar styles */
@@ -226,11 +223,11 @@ img{
   display: flex;
   text-align: center;
   margin: 0 auto;
-  padding: 2px;
+  padding: 4px;
   background-color: #fff;
   color: #333;
   animation: fadeIn 2s ease-in-out;
-  margin-bottom: 2%;
+  margin-bottom: 4%;
 }
 
 #skills {
@@ -391,7 +388,7 @@ img{
 
 /* Image inside the front div */
 .info1 img {
-  width: 35%;
+  width: 10%;
   height: auto;
   margin-top: 10px;
 }
