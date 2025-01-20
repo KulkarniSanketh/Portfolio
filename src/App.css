@@ -42,7 +42,7 @@ body{
 
 @media screen and (max-width: 758px) {
   .main{
-    margin-top: 45%;
+    margin-top: 50%;
   }
 }
 
@@ -68,7 +68,6 @@ a:hover{
 img{
   width: 8%;
   margin: 2%;
-  
   animation: filters 4s infinite;
 }
 
@@ -94,20 +93,24 @@ img{
 }
 
 .sidebar-toggle {
-  display: none;
+  display: inline;
   font-size: 24px;
   background: none;
   border: none;
   cursor: pointer;
-  margin: 10px;
+  margin: 20px;
+  top: 0;
+  left: 0;
   color: white;
+  background-color: black;
+  position: fixed;
   
+
   
 }
 
 /* Sidebar styles */
 .sidebar {
-  display: none;
   position: fixed;
   top: 0;
   left: 0;
