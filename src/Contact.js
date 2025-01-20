@@ -19,7 +19,7 @@ function Contact() {
               placeholder="Enter Your Name"
               required
             />
-            <sup>*</sup>
+            
           </p>
           <p>
             Phone:
@@ -29,7 +29,7 @@ function Contact() {
               placeholder="Enter Your Phone Number"
               required
             />
-            <sup>*</sup>
+            
           </p>
           <p>
             Email:
@@ -39,7 +39,7 @@ function Contact() {
               placeholder="Enter Your Email"
               required
             />
-            <sup>*</sup>
+            
           </p>
           <p>
             <textarea

@@ -42,7 +42,7 @@ function Project() {
               <li>MongoDB</li>
             </ul>
             <button>
-              <a href={github} target="_blank" rel="noopener noreferrer">
+              <a href={github} target="_blank" rel="noopener noreferrer" className="visitgit">
                 Visit My Notebook
               </a>
             </button>
