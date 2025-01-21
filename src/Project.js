@@ -15,7 +15,7 @@ function Project() {
   };
 
   return (
-    <section id="projects">
+    <section id="projects" class='text-body-secondary'>
       <h2>Projects</h2>
       <div className="project_info">
         {/* Project 1 */}
@@ -42,7 +42,7 @@ function Project() {
               <li>MongoDB</li>
             </ul>
             <button>
-              <a href={github} target="_blank" rel="noopener noreferrer" className="visitgit">
+              <a href={github} target="_blank" rel="noopener noreferrer" class="visitgit">
                 Visit My Notebook
               </a>
             </button>

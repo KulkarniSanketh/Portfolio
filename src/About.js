@@ -4,7 +4,7 @@ function About() {
   return (
     <div id="skills">
       <section id="about">
-        <h2 id="about_me_h2">ABOUT ME</h2>
+        <h2 id="about_me_h2" class='p-2 border-dark m-lg-0'>ABOUT ME</h2>
         <br />
         <p>
           Hi, I’m Sanketh Kulkarni, a web developer skilled in front-end
@@ -30,13 +30,14 @@ function About() {
               the latest technologies to bring your ideas to life
             </p>
           </div>
-        </div>
+          
         <div className="maintenance">
           <h3>MAINTENANCE</h3>
           <p>
             I provide ongoing support to keep your site running smoothly, with
             regular updates <br /> and optimizations for peak performance.
           </p>
+        </div>
         </div>
         <br />
         <h2>--------\\\///--------</h2>

@@ -2,12 +2,19 @@ import React, { useState } from "react";
 import instadsecond from "./Images/instagram 2.png";
 import github from "./Images/github2.svg";
 import linkdin from "./Images/linkedin2.png";
+import leetcode from './Images/leetcode.png'
+import gfg from './Images/gfg.png'
+
 
 export default function Front() {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
 
   const toggleSidebar = () => {
     setSidebarOpen(!isSidebarOpen);
+  };
+
+  const handleViewResume = () => {
+    window.open("/resume.pdf", "_blank");
   };
 
   return (
@@ -43,6 +50,7 @@ export default function Front() {
               <a href="#contact" onClick={toggleSidebar}>
                 Contact
               </a>
+            
             </li>
           </ul>
         </div>
@@ -62,6 +70,8 @@ export default function Front() {
             <li className="col">
               <a href="#contact">Contact</a>
             </li>
+            <li>
+            </li>
           </ul>
         </div>
 
@@ -73,15 +83,22 @@ export default function Front() {
           <h6>
             <b>Web Designer and Web Developer</b>
           </h6>
+              <button class='btn btn-outline-info m-3' onClick={handleViewResume}>Resume</button>
           <br />
-          <a href="https://www.instagram.com/sanketh_sk_/">
-            <img src={instadsecond} alt="Not available" />
+          <a href="https://www.instagram.com/sanketh_sk_/" target="_blank" rel="noreferrer">
+            <img src={instadsecond} alt="NA" />
           </a>
-          <a href="https://github.com/KulkarniSanketh/My-Notebook">
-            <img src={github} alt="Not available" />
+          <a href="https://github.com/KulkarniSanketh/My-Notebook" target="_blank" rel="noreferrer">
+            <img src={github} alt="NA" />
           </a>
-          <a href="https://www.linkedin.com/in/shree-sanketh-kulkarni-9b118325b/">
-            <img src={linkdin} alt="" />
+          <a href="https://www.linkedin.com/in/shree-sanketh-kulkarni-9b118325b/" target="_blank" rel="noreferrer">
+            <img src={linkdin} alt="NA" />
+          </a>
+          <a href="https://leetcode.com/u/shreesanket/" target="_blank" rel="noreferrer">
+            <img src={leetcode} alt="NA" />
+          </a>
+          <a href="https://www.geeksforgeeks.org/user/shreesanket/" target="_blank" rel="noreferrer">
+            <img src={gfg} alt="NA" />
           </a>
         </div>
       </div>
