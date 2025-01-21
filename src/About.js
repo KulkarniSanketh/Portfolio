@@ -4,7 +4,7 @@ function About() {
   return (
     <div id="skills">
       <section id="about">
-        <h2 id="about_me_h2" class='p-2 border-dark m-lg-0'>ABOUT ME</h2>
+        <h2 id="about_me_h2" class='p-2'>ABOUT ME</h2>
         <br />
         <p>
           Hi, I’m Sanketh Kulkarni, a web developer skilled in front-end
