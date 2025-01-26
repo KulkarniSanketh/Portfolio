@@ -13,6 +13,10 @@ function Project() {
       prevState.map((isFlipped, i) => (i === index ? !isFlipped : isFlipped))
     );
   };
+  const githubgo=()=>{
+    window.open("https://github.com/KulkarniSanketh/My-Notebook");
+    return;
+  }
 
   return (
     <section id="projects" class='text-body-secondary'>
@@ -41,16 +45,14 @@ function Project() {
               <li>Express.js</li>
               <li>MongoDB</li>
             </ul>
-            <button>
-              <a href={github} target="_blank" rel="noopener noreferrer" class="visitgit">
-                Visit My Notebook
-              </a>
+            <button className="btn btn-outline-info" src={github} onClick={githubgo}>
+              Visit github
             </button>
           </div>
         </div>
 
-        {/* Project 2 */}
-        <br />
+        
+        <br /><br />
       </div>
     </section>
   );

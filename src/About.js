@@ -2,9 +2,9 @@ import React from "react";
 
 function About() {
   return (
-    <div id="skills">
+    <div id="">
       <section id="about">
-        <h2 id="about_me_h2" class='p-2'>ABOUT ME</h2>
+        <p id="about_me_h2" class='p-1'>ABOUT ME</p>
         <br />
         <p>
           Hi, I’m Sanketh Kulkarni, a web developer skilled in front-end
@@ -16,14 +16,14 @@ function About() {
         <h2>--------\\\///--------</h2>
         <br />
         <div id="explore">
-          <div className="design">
+          <div className="design my-3 ">
             <h3>DESIGN</h3>
             <p>
               I craft designs tailored to your vision, ensuring an intuitive and
               engaging user experience that reflects your brand.
             </p>
           </div>
-          <div className="Development">
+          <div className="Development my-3">
             <h3>DEVELOPMENT</h3>
             <p>
               I build robust, scalable solutions from the ground up, integrating
@@ -31,7 +31,7 @@ function About() {
             </p>
           </div>
           
-        <div className="maintenance">
+        <div className="maintenance my-3">
           <h3>MAINTENANCE</h3>
           <p>
             I provide ongoing support to keep your site running smoothly, with

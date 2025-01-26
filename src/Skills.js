@@ -19,24 +19,34 @@ function Skills() {
         <h3>Using Now:</h3>
         <div className="Images">
           <div>
-            <img src={html} alt="NA" />
+            <img className="p-2" src={html} alt="NA"/>
             <br />
             <small>HTML</small>
           </div>
           <div>
-            <img src={css} alt="NA" />
+            <img className="p-2" src={css} alt="NA" />
             <br />
             <small>CSS</small>
           </div>
           <div>
-            <img src={js} alt="NA" />
+            <img className="p-2" src={js} alt="NA" />
             <br />
             <small>JAVASCRIPT</small>
           </div>
           <div>
-            <img src={mysql} alt="NA" />
+            <img className="p-2"  src={mysql} alt="NA" />
             <br />
             <small>MYSQL</small>
+          </div>
+          <div>
+            <img className="p-2" src={bootstrap} alt="NA" />
+            <br />
+            <small>BOOTSTRAP</small>
+          </div>
+          <div>
+            <img className="p-2" src={react_logo} alt="NA" />
+            <br />
+            <small>REACT</small>
           </div>
         </div>
         <br />
@@ -44,22 +54,12 @@ function Skills() {
         <h3>Learning:</h3>
         <div className="Images">
           <div>
-            <img src={bootstrap} alt="NA" />
-            <br />
-            <small>BOOTSTRAP</small>
-          </div>
-          <div>
-            <img src={react_logo} alt="NA" />
-            <br />
-            <small>REACT</small>
-          </div>
-          <div>
-            <img src={mongodb} alt="NA" />
+            <img className="p-2"  src={mongodb} alt="NA" />
             <br />
             <small>MONGODB</small>
           </div>
           <div>
-            <img src={nodejs} alt="NA" />
+            <img className="p-2" src={nodejs} alt="NA" />
             <br />
             <small>NODEJS</small>
           </div>
@@ -69,17 +69,17 @@ function Skills() {
         <h3>Other Skills:</h3>
         <div className="Images">
           <div>
-            <img src={c} alt="NA" />
+            <img className="p-2" src={c} alt="NA" />
             <br />
             <small>C</small>
           </div>
           <div>
-            <img src={java} alt="NA" />
+            <img className="p-2" src={java} alt="NA" />
             <br />
             <small>JAVA</small>
           </div>
           <div>
-            <img src={python} alt="NA" />
+            <img className="p-2" src={python} alt="NA" />
             <br />
             <small>PYTHON</small>
           </div>

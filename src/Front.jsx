@@ -83,7 +83,7 @@ export default function Front() {
           <h6>
             <b>Web Designer and Web Developer</b>
           </h6>
-              <button class='btn btn-outline-info m-3' onClick={handleViewResume}>Resume</button>
+              <button class='btn btn-outline-info m-3 text-light' onClick={handleViewResume}>Resume</button>
           <br />
           <a href="https://www.instagram.com/sanketh_sk_/" target="_blank" rel="noreferrer">
             <img src={instadsecond} alt="NA" />
