@@ -43,7 +43,7 @@ export default function Front() {
             </li>
             <li>
               <a href="#projects" onClick={toggleSidebar}>
-                Project
+                Projects
               </a>
             </li>
             <li>
@@ -65,7 +65,7 @@ export default function Front() {
               <a href="#skills">Skills</a>
             </li>
             <li className="col">
-              <a href="#projects">Project</a>
+              <a href="#projects">Projects</a>
             </li>
             <li className="col">
               <a href="#contact">Contact</a>
