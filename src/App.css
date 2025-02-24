@@ -14,6 +14,9 @@ body{
   animation: gradient-animation 3s infinite, bounce 1.5s infinite ease-in-out;
 }
 
+p{
+  font-size: 1.3rem;
+}
 
 
 /* Gradient Animation */
@@ -41,8 +44,8 @@ body{
 
 
 @media screen and (min-device-height: 481px) and (max-device-width: 768px) {
-  .main{
-    margin-top: 50%;
+  #data{
+    padding-top: 80%;
   }
 }
 
@@ -68,17 +71,10 @@ a:hover{
 img{
   width: 8%;
   margin: 2%;
-  animation: filters 4s infinite;
+  
 }
 
-@keyframes filters {
-  0%{
-    filter: grayscale(1);
-  }
-  100%{
-    filter: grayscale(0.2);
-  }
-}
+
 
 
 .portfolio {
@@ -101,8 +97,8 @@ img{
   margin: 20px;
   top: 0;
   left: 0;
-  color: white;
-  background-color: black;
+  color: aqua;
+  
   position: fixed;
 }
 
@@ -195,25 +191,7 @@ img{
   width: 40%;  
   font-size: 100%;
 }
-.design h3{
-  border: 2px solid black;
-  width: max-content;
-  margin: 0 auto;
-  padding: 6px;
-  
-}
-.Development h3{
-  border: 2px solid black;
-  width: max-content;
-  margin: 0 auto;
-  padding: 6px;
-}
-.maintenance h3{
-  border: 2px solid black;
-  width: max-content;
-  margin: 0 auto;
-  padding: 6px;
-}
+
 
 
 #about p{
@@ -238,13 +216,13 @@ img{
 
 /* Common styling for the entire section */
 #Skills {
-  border: 2px solid black;
+  
   width: max-content;
   display: flex;
   text-align: center;
   margin: 0 auto;
   padding: 4px;
-  background-color: #fff;
+  
   color: #333;
   animation: fadeIn 2s ease-in-out;
   margin-bottom: 4%;
@@ -330,7 +308,6 @@ img{
 
 #projects h2 {
   text-align: center;
-  border: 2px solid black;
   width: 30%;
   margin: 0 auto;
   border-radius: 5%;
@@ -454,7 +431,7 @@ button a{
 }
 
 #form {
-  width: 80%;
+  width: 70%;
   background: var(--highlight-color);
   padding: 20px;
   border: 2px solid var(--secondary-color);
@@ -464,14 +441,14 @@ button a{
   margin: 4%;
 }
 
-#form input,
+/* #form input,
 #textarea {
   width: 80%;
   margin: 10px 0;
   padding: 10px;
   border: 1px solid var(--secondary-color);
   border-radius: 5px;
-}
+} */
 
 #button {
   background-color: var(--secondary-color);

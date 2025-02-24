@@ -11,44 +11,40 @@ function Contact() {
             name="access_key"
             defaultValue="be2b2366-ba03-4def-b914-74ac7e054d27"
           />
-          <p>
-            Name:
+          <div class="form-floating mb-3 border border-1 border-dark">
             <input
-              name="Name"
               type="text"
-              placeholder="Enter Your Name"
-              required
+              class="form-control"
+              name="Name"
+              id="Name"
+              placeholder=""
             />
-            
-          </p>
-          <p>
-            Phone:
+            <label for="Name">Name</label>
+          </div>
+          <div class="form-floating mb-3 border border-1 border-dark">
             <input
-              name="Phone NO"
-              type="number"
-              placeholder="Enter Your Phone Number"
-              required
+              type="tel"
+              class="form-control"
+              name="Mobile"
+              id="Mobile"
+              placeholder=""
             />
-            
-          </p>
-          <p>
-            Email:
+            <label for="Mobile">Mobile No</label>
+          </div>
+          <div class="form-floating mb-3 border border-1 border-dark">
             <input
-              name="Email"
               type="email"
-              placeholder="Enter Your Email"
-              required
+              class="form-control"
+              name="Email"
+              id="Email"
+              placeholder=""
             />
-            
-          </p>
-          <p>
-            <textarea
-              name="Message"
-              placeholder="Enter Your Message"
-              required
-              id="textarea"
-            />
-          </p>
+            <label for="Email">Email</label>
+          </div>
+          <div class="mb-3">
+            <label for="Message" class="form-label"></label>
+            <textarea class="form-control border border-1 border-dark" name="Message" id="Message" rows="3" placeholder="Write your message"></textarea>
+          </div>
           <br />
           <button id="button">Submit</button>
         </form>

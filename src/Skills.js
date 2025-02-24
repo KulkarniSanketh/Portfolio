@@ -15,8 +15,8 @@ function Skills() {
   return (
     <>
       <section id="skills">
-        <h2 id="Skills" class='p-2'>SKILLS</h2>
-        <h3>Using Now:</h3>
+        <h2 id="Skills" className='p-2'>SKILLS</h2>
+        <h4 className="my-3">Using Now:</h4>
         <div className="Images">
           <div>
             <img className="p-2" src={html} alt="NA"/>
@@ -51,7 +51,7 @@ function Skills() {
         </div>
         <br />
         <br />
-        <h3>Learning:</h3>
+        <h4 className="my-3">Learning:</h4>
         <div className="Images">
           <div>
             <img className="p-2"  src={mongodb} alt="NA" />
@@ -66,7 +66,7 @@ function Skills() {
         </div>
         <br />
         <br />
-        <h3>Other Skills:</h3>
+        <h4 className="my-3">Other Skills:</h4>
         <div className="Images">
           <div>
             <img className="p-2" src={c} alt="NA" />
